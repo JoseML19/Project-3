@@ -72057,7 +72057,8 @@ PrefabInstance:
       value: Wanis House
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7546151700447378439, guid: 0d2fb2bd4c4f3480e863c1380bc1b2fc, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2fb2bd4c4f3480e863c1380bc1b2fc, type: 3}
