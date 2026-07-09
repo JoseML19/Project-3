@@ -4,15 +4,17 @@ public class EatScript : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
+       
+            
+
         if (other.gameObject.CompareTag("Food"))
         {
             Debug.Log("Destroy food here.");
 
-            Destroy(other.gameObject);
-
             PlayEatSoundEffect();
 
             CreateFoodCrumbs();
+            Destroy(other.gameObject);
         }
     }
 
