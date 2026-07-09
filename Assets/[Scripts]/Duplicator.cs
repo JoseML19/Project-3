@@ -16,7 +16,7 @@ public class Duplicator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Instantiate(prefab, spawn.position, spawn.rotation);
+        Instantiate(prefab, spawn.position, spawn.rotation);
         
     }
 }
